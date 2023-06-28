@@ -29,7 +29,7 @@ ENTREGABLES
 - Codigo del proyecto enviado por correo.
 */
 
-public class Ejercicio2 {
+public class REST {
 	
 	@Test
 	public void doExercise2() throws IOException {
@@ -87,7 +87,7 @@ public class Ejercicio2 {
 	}
 	
 	public static void main(String[] args) {
-	     Ejercicio2 ejercicio2 = new Ejercicio2();
+	     REST ejercicio2 = new REST();
 	        try {
 	            ejercicio2.doExercise2();
 	        } catch (IOException e) {
